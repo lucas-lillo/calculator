@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int num1,num2,soma,multi,men,divi;
+   
+    printf("Informe o primeiro número: ");
+    scanf("%d",&num1);
+    printf("\nInforme o segundo número: ");
+    scanf("%d",&num2);
+   
+    soma=num1+num2;
+    multi=num1*num2;
+    divi=num1/num2;
+    men=num1-num2;
+   
+    printf("Resultado:%d + %d = %d \n %d x %d = %d \n %d / %d = %d \n %d - %d = %d",num1,num2,soma,
+            num1,num2,multi,num1,num2,divi,num1,num2,men);
+}
